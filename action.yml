@@ -1,0 +1,11 @@
+name: 'markdown-spell-checker'
+description: 'Check spelling on markdown files and provide suggestions'
+inputs:
+  pro-writing-aid-api-key:
+    description: 'ProWritingAid API key'
+    required: true
+  file-paths:
+    description: 'The paths to the files to check'
+runs:
+  using: 'node12'
+  main: 'src/index.js'
